@@ -1,0 +1,167 @@
+html,body{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+	font-family:"微软雅黑";
+}
+body{
+	background:url('../images/login_background.jpg') no-repeat;
+	background-size:cover;
+}
+/*logo图*/
+#logo{
+	position:absolute;
+	top:30px;
+	left:50px;
+}
+/*整个form表单内部里面*/
+.login{
+	width:460px;
+	height:460px;
+	background-color:#fff;
+	border-top:4px solid #e77c82;
+	position:absolute;
+	bottom:200px;
+	right:360px;
+	box-shadow:-4px -3px 5px #d0ccbf;
+}
+/* 表单*/
+.frm{
+	width:360px;
+	height:380px;
+	margin:auto;
+}
+p{
+	color:red;
+}
+/*用户注册栏*/
+.login_1{
+	width:350px;
+	margin:25px auto;
+}
+.userInfo{
+	display:flex;
+	width:100%;
+	height:42px;
+	font-size:16px;
+	font-weight:bold;
+	align-items:center;
+}
+/*用户注册前面的竖线*/
+.line{
+	background:#e8868b;
+	width:5px;
+	height:20px;
+	margin-right:10px;
+	vertical-align:middle;
+}
+/* 手机号码栏 */
+.login_2,.login_3,.login_4,.login_5{
+	margin-bottom:10px;
+}
+.phone{
+	display:flex;
+}
+.phone input{
+	width:290px;
+	height:100%;
+	border-radius:0 5px 5px 0;
+	font-size:18px;
+	border:1px solid #a94442;
+	border-left:none;
+	text-indent:20px;
+	box-sizing:border-box;
+}
+.phone li{
+	height:40px;
+}
+.icon_1{
+	width:16%;
+	border:1px solid #a94442;
+	border-radius:5px 0 0 5px;
+	background-color:#f2dede;
+	text-align:center;
+	box-sizing:border-box;
+}
+.icon-shouji,.icon-erweima,.icon-password{
+	font-size:30px;
+	line-height:35px;
+	color:#a94442;
+}
+/*验证码栏*/
+.allCode{
+	display:flex;	
+}
+.allCode li{
+	height:40px;
+}
+.allCode input{
+	width:100px;
+	height:100%;
+	border-radius:0 5px 5px 0;
+	font-size:18px;
+	border:1px solid #a94442;
+	border-left:none;
+	text-indent:20px;
+	box-sizing:border-box;
+}
+.allCode .icon_3{
+	width:80px;
+	height:38px;
+	border:1px solid #a94442;
+	background-color:#f2dede;
+	border-radius:5px;
+	margin-left:20px;
+}
+.icon_3 p{
+	text-align:center;
+	color:#b05449;
+	margin-top:8px;
+}
+.icon_4 .btn{
+	width:70px;
+	margin-left:10px;
+	height:100%;
+}
+/*登录密码栏*/
+.enter{
+	display:flex;
+}
+.enter li{
+	height:40px;
+}
+.enter input{
+	width:290px;
+	height:100%;
+	border-radius:0 5px 5px 0;
+	font-size:18px;
+	border:1px solid #a94442;
+	border-left:none;
+	text-indent:20px;
+	box-sizing:border-box;
+}
+/*点击登录按钮*/
+.subAll{
+	width:100%;
+	height:40px;
+	border:1px solid #a94442;
+	border-radius:5px;
+	margin-top:5px;
+	background-color:#e2454e;
+	color:#fff;
+}
+.end{
+	display:flex;
+	justify-content:space-between;
+}
+a{
+	color:#438bca;
+	line-height:40px;
+}
+.error{
+	color:red;
+}
+.correct{
+	color:green;
+}

@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>主页面</title>
+	<link rel="stylesheet" href="css/swiper.min.css"> 
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/index.css"> 
+
+    <script src="js/jquery-1.11.0.js"></script>
+    <script src="js/swiper.min.js"></script>   
+    <script src="js/swiper.animate1.0.2.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+  	<div class="swiper-container">
+  	<!-- 导航栏-->
+		<div class="nav">
+			<div class="nav_left">
+				 <img src="images/nav-logo.png"> 
+				<ul class="nav_center">
+					<li>优先认购</li>
+					<li>我要投资</li>
+					<li>我要转让</li>
+					<li>我要供票</li>
+					<li>我的云桥</li>
+					<li>帮助中心</li>
+				</ul>
+			</div>
+			<div class="nav_right">
+				<img src="images/user.png" class="navimg">
+				<p class="enter"><a href="login.html">登录</a></p>
+				<p class="line">/</p>
+				<p class="register"><a href="register.html">注册</a></p>
+				<p id="exit">退出登录</p>
+				<p class="show"></p>
+			</div>			
+		</div>
+		<!-- 轮播图 -->
+  		<div class="swiper-wrapper">
+	  		<div class="swiper-slide slide1">
+	  			 <video src="video/banner.mp4" autoplay="autoplay"loop="loop" ></video>
+	  		</div>
+	  		<div class="swiper-slide slide2">
+	  			  <img src="images/quxian.png"class="ani slide2_frist"swiper-animate-effect="fadeInLeftBig" swiper-animate-duration="2s" swiper-animate-delay="0.3s">
+	  			 <img src="images/table.png" class="ani slide2_second"swiper-animate-effect="bounceInRight" swiper-animate-duration="2s" swiper-animate-delay="0.3s">
+	  		</div>
+	  		<div class="swiper-slide slide3"></div>
+	  		<div class="swiper-slide slide4"></div>
+	  		<div class="swiper-slide slide5"></div>
+  		</div>
+  		<div class="swiper-pagination"></div>	
+  	</div>	
+</body>
+</html>
